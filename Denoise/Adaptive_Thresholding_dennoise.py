@@ -4,7 +4,7 @@ import pytesseract
 import os
 from PIL import Image
 
-inp_path = 'input/train/11.png'
+inp_path = 'img/2.png'
 img = cv2.imread(inp_path,0)
 blur = cv2.GaussianBlur(img,(3,3),0)
 
