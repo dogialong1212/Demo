@@ -8,7 +8,7 @@ from PIL import Image
 #Link hinh input
 #inp_path = 'input/train/2.png'
 
-inp_path = 'input/test3.png'
+inp_path = 'img/2.png'
 img = cv2.imread(inp_path)
 img = cv2.resize(img,(540,258))
 
